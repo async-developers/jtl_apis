@@ -1,0 +1,14 @@
+extends: ['airbnb-base']
+plugins:
+  - promise
+env:
+  'node': true
+  'mocha': true
+parserOptions: 
+  'ecmaVersion': 2018
+rules:
+  'no-extend-native': off
+  'no-unused-vars': warn
+  'strict': off
+  'comma-dangle': off
+  'no-console': off
